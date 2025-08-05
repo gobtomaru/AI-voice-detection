@@ -38,6 +38,23 @@ This modular design allows batch processing of multiple audio files by calling t
 - After tuning, an SVM model showed the highest accuracy in detecting AI voices, outperforming baseline models like Logistic Regression and Naive Bayes.
 - The best model is saved using `joblib`.
 
+``` text
+CLASSIFICATION REPORT:
+
+              precision    recall  f1-score   support
+
+           0       0.67      0.67      0.67         9
+           1       0.73      0.73      0.73        11
+
+    accuracy                           0.70        20
+   macro avg       0.70      0.70      0.70        20
+weighted avg       0.70      0.70      0.70        20
+
+Monte Carlo validation:
+mean accuracy: 0.7797658862876254
+standard deviation of scores: 0.08742093632052701
+
+```   
 ## 🚀 Usage
 
 To run this project:
