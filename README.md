@@ -1,6 +1,6 @@
 # 🎙️ AI Voice Analysis
 
-A lightweight supervised classification pipeline that distinguishes AI-generated speech from human recorded speech using acoustic and spectral features. <br><br> However, this project has a major constraint regarding sample size, with only 79 samples as of August 2025, I will work around these constraints through hyperparameter tuning, and incorporating monte carlo validations on different train test splits.
+A lightweight supervised classification pipeline that distinguishes AI-generated speech from human recorded speech using acoustic and spectral features. <br><br> The analysis is divided into two notebooks. One for feature extraction and EDA, and another for feature engineering and model development. <br><br> However, this project has a major constraint regarding sample size, with only 79 samples as of August 2025, I will work around these constraints through hyperparameter tuning, and incorporating monte carlo validations on different train test splits.
 
 ## 📁 Project Structure
 
